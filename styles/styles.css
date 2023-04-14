@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+.container{
+    position: relative;
+}
+canvas{
+    background:url("../images/main1.jpg");
+    display: block;
+    margin: 5rem auto;
+    box-shadow: rgb(81, 69, 136) 0 0 20px 5px;
+}
+
+#level{
+    /* display: none; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#level>div{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    cursor: pointer;
+    background-color: black;
+    font-size: 1.4rem;
+    color: white;
+    width: 10rem;
+    height: 3rem;
+    margin: 0.7rem;
+    border-radius: 10px;
+}
+h1{
+    color: rgb(216, 212, 224);
+}
+
