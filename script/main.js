@@ -373,7 +373,7 @@ function draw() {
 
 function gameOver() {
   if (life <= 0) {
-    showYouLose();
+    gameover.style.display = 'block';
     GAME_END = true;
   }
 }
@@ -439,9 +439,4 @@ function loop() {
     }, 3000);
     ctx.drawImage(gameOver_IMG, 110, 110);
   }
-}
-// const gameover = document.getElementById("gameover");
-function showYouLose() {
-  gameover.style.display = 'block';
-  youlose.style.display = 'block';
 }
